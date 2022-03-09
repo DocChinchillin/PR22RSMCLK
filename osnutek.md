@@ -1,9 +1,9 @@
 # PR22RSMCLK
 Projektna naloga pri predmetu podatkovno rudarjenje. Člani: Rok Švikart, Martin Čučkin in Luka Kalin
 
-Analizirali bomo podatke o nepremičninah: https://podatki.gov.si/dataset/surs0419030s
+Analizirali bomo podatke o nepremičninah: https://podatki.gov.si/dataset/surs0419030s, 
                                           https://podatki.gov.si/dataset/evidenca-trga-nepremicnin,
-in podatke o dohodkih: https://www.gov.si/teme/minimalna-placa/
+in podatke o dohodkih: https://www.gov.si/teme/minimalna-placa/, 
                        https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701011S.px
 
 Vprašanja na katera bomo odgovarjali: 
