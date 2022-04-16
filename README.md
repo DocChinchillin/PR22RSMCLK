@@ -67,19 +67,19 @@ cenaNaMeter = getAllCnM()
 
 
     
-![png](projektna_files/projektna_31_0.png)
+![png](vmesna/projektna_31_0.png)
     
 
 
 
     
-![png](projektna_files/projektna_31_1.png)
+![png](vmesna/projektna_31_1.png)
     
 
 
 
     
-![png](projektna_files/projektna_31_2.png)
+![png](vmesna/projektna_31_2.png)
     
 
     
@@ -89,7 +89,7 @@ Zgornji grafi prikazujejo število podatkov, ter delež mankajočih podatkov v d
 
 
     
-![png](projektna_files/projektna_32_0.png)
+![png](vmesna/projektna_32_0.png)
     
 
 
@@ -122,7 +122,7 @@ plt.show()
 
 
     
-![png](projektna_files/projektna_34_0.png)
+![png](vmesna/projektna_34_0.png)
     
 
 
