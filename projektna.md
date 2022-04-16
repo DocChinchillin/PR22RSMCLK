@@ -457,21 +457,21 @@ plt.ylabel("Delež")
 plt.title("Delež mankajočih podatkov o (19) 'Prodana površina'")
 plt.show()
 
-fig = plt.figure()
-fig.patch.set_facecolor('white')
-plt.plot(range(2007,2023),manka22Vsi)
-plt.xlabel("Leto")
-plt.ylabel("Delež")
-plt.title("Delež mankajočih podatkov o (22) 'Prodana uporabna površina dela stavbe'")
-plt.show()
+# fig = plt.figure()
+# fig.patch.set_facecolor('white')
+# plt.plot(range(2007,2023),manka22Vsi)
+# plt.xlabel("Leto")
+# plt.ylabel("Delež")
+# plt.title("Delež mankajočih podatkov o (22) 'Prodana uporabna površina dela stavbe'")
+# plt.show()
 
-fig = plt.figure()
-fig.patch.set_facecolor('white')
-plt.plot(range(2007,2023),mankaObaVsi)
-plt.xlabel("Leto")
-plt.ylabel("Delež")
-plt.title("Delež mankajočih podatkov o (19) in (22)")
-plt.show()
+# fig = plt.figure()
+# fig.patch.set_facecolor('white')
+# plt.plot(range(2007,2023),mankaObaVsi)
+# plt.xlabel("Leto")
+# plt.ylabel("Delež")
+# plt.title("Delež mankajočih podatkov o (19) in (22)")
+# plt.show()
 ```
 
 
@@ -483,18 +483,6 @@ plt.show()
 
     
 ![png](projektna_files/projektna_37_1.png)
-    
-
-
-
-    
-![png](projektna_files/projektna_37_2.png)
-    
-
-
-
-    
-![png](projektna_files/projektna_37_3.png)
     
 
 
@@ -521,9 +509,8 @@ bruto1 =  np. reshape(matrika[:,1].astype(float), -1)
 neto1 = np. reshape(matrika[:,2].astype(float), -1)
 y = np. reshape(matrika[:,0].astype(datetime), -1)
 
-fig = plt.figure()
+fig = plt.figure(figsize=(10,5))
 fig.patch.set_facecolor('white')
-plt.figure(figsize=(10,5))
 plt.plot(y,bruto1, label="Bruto place")
 plt.plot(y,neto1, label="Neto place")
 plt.plot(y,minPlace,label ="Minimalne place")
@@ -536,12 +523,8 @@ plt.show()
 ```
 
 
-    <Figure size 432x288 with 0 Axes>
-
-
-
     
-![png](projektna_files/projektna_38_1.png)
+![png](projektna_files/projektna_38_0.png)
     
 
 
@@ -549,9 +532,8 @@ Graf prikazuje obnašanje prihodkov skozi obdobje 2014 do 2022. Razberemo lahko,
 
 
 ```python
-fig = plt.figure()
-fig.patch.set_facecolor('white')
 fig, ax = plt.subplots(figsize=(10,7))
+fig.patch.set_facecolor('white')
 ax.set_title("Spreminjanje stevila transakcij in njihovih skupnih vrednosti po četrtletjih")
 ax.tick_params('x', labelrotation=90)
 ax.set_xlabel('Cas')
@@ -575,12 +557,8 @@ plt.show()
 ```
 
 
-    <Figure size 432x288 with 0 Axes>
-
-
-
     
-![png](projektna_files/projektna_40_1.png)
+![png](projektna_files/projektna_40_0.png)
     
 
 
